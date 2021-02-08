@@ -426,8 +426,7 @@ nav {
     gap: 2px;
     p{
       margin:5px 1.5rem 1rem;
-      letter-spacing: 1px;
-      font-size: 1.1rem;
+      font-size: 1rem;
       line-height: 2.2rem;
     }
     .service {
@@ -841,14 +840,13 @@ footer {
       justify-content: center;
       align-items: center;
       gap: 1rem;
-      .logo{
-        width: 25%;
-      }
-      width: 35%;
+      // width: 35%;
       margin: 0 2rem;
       align-self: center;
       text-align: center;
-
+      .logo{
+        width: 25%;
+      }
       h2 {
         font-weight: 600;
         color: $clean;
@@ -945,8 +943,6 @@ footer {
         border-bottom: 1px solid #e7e7e7;
         padding: 2rem 0 0 2rem;
         color: $sec;
-        a {
-        }
         h2 {
           text-align: center;
           // font-family: ;
@@ -1091,12 +1087,12 @@ footer {
       width: 80%;
     }
   }
-  .features__main {
-    .features {
-      .feature__box {
-      }
-    }
-  }
+  // .features__main {
+  //   .features {
+  //     .feature__box {
+  //     }
+  //   }
+  // }
   .portfolio {
     .project {
       margin: 1rem;
